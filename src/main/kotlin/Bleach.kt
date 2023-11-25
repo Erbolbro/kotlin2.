@@ -1,7 +1,13 @@
-data class KenpachiZaraki(
-    val spiritualSword: String = "nosaraki",
-    val capabilities: String = "shikai",
-    val superPover: String = "bankai"
-)
+package anime
+data class Bleach(
+    val name: String,
+    val spiritualSword: String,
+    val capabilities: String,
+    val bankai: String
+) {
+    companion object {
+
+    }
+}
 
 

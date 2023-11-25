@@ -1,9 +1,12 @@
-package Anime
-import Bleach
-class Gotei13 {
-    fun sinigami(kenpachiZaraki: Bleach) {
-        println("духовный меч: ${kenpachiZaraki.spiritualSword}" )
-        println(" способности:${kenpachiZaraki.capabilities}")
-        println(" суперспособности:${kenpachiZaraki.superPower}")
+package anime
+
+
+
+class Characteristic {
+    fun Sinigami(bleach: Bleach) {
+        println("Имя Героя:${bleach.name}")
+        println("духовный меч:${bleach.spiritualSword}")
+        println("способность:${bleach.capabilities}")
+        println("банкай:${bleach.bankai}")
     }
 }
